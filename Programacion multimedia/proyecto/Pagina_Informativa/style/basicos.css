@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    ::-webkit-scrollbar {
+    width: 9px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #08143581;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #aaa2a2;
+    border-radius: 2em;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
+    grid-template-areas:
+    "superior superior superior"
+    "section section section"
+    "footer footer footer"
+    "tratamientos tratamientos tratamientos"
+    ;
+    
+    font-family: 'Kanit', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 75vh;
+    grid-area: superior;
+    /* margin: 6em auto 0 auto; */
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+    margin-top: 0.5em;
+}
+.nav_A {
+    /* position: fixed; */
+ 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #fff;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     padding: 1.5em 0;
+}
+.links>.btn-ingresar{
+background-color: rgb(0, 0, 255);
+padding: 0.5em  2em;
+margin: 0;
+color :#ffff;
+border-radius:0.8em ;
+cursor: pointer;
+transition: all 1s;
+}
+.links>.btn-ingresar:hover{
+    background-color: transparent; 
+    color :rgb(0, 0, 255);
+}
+.logoprincipal > img{
+    width: 100px;
+    height: auto;
+}
+.links{
+    display: flex;
+    gap: 1em;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+.sectiondatos{
+   
+    width: 80%;
+    margin: 0 auto ;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+  position: relative;
+}
+
+.sectiondatos::after{
+    position: absolute;
+    content: "";
+    width: 8em;
+    height:8em;
+    background-color: rgba(0, 0, 255, 0.363);
+    border-radius: 55% 45% 67% 33% / 30% 30% 70% 70% ;
+    right: 0;
+    top :10em;
+}
+.sectiondatos::before{
+    position: absolute;
+    content: "";
+    width: 8em;
+    height:8em;
+    background-color: rgba(0, 0, 0, 0.363);
+    border-radius: 55% 45% 67% 33% / 30% 30% 70% 70% ;
+    right: 5em;
+    top :15em;
+   
+}
+.datos{
+    padding: 0 0 0 1em;
+}
+.datos > h1{
+font-size: 2em;
+width: 80%;
+
+}
+.datos > h1:first-letter{
+    color:blue;
+    font-size: 1.8em;
+}
+.datos >p{
+    font-size: 1.1em;
+    width: 70%;
+    z-index: 3;
+    margin: 1em 0;
+
+    }
+    .datos >button{
+        padding: 0.8em 5em;
+        background-color: blue;
+        color:#ffff;
+        border: none;
+        cursor: pointer;
+        font-size: 0.9em;
+        transition: all 1s;
+    }
+    .datos > button:hover{
+        background-color: transparent;
+        color:blue;
+    }
+    /* section o contenido */
+.section{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    grid-area: section;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto auto 1fr;
+grid-template-areas:
+"seccion1 seccion2 seccion3"
+;
+gap: 2em;
+color:#fff;
+text-align: center;
+}
+
+.seccion1{
+    grid-area:seccion1;
+  height: 10em;
+  background-color: rgb(0, 0, 255);
+  padding: 2em;
+}
+.seccion2{
+    grid-area:seccion2;
+    height: 10em;
+    background-color: blue;
+    padding: 2em;
+}
+.seccion3{
+    grid-area:seccion3;
+    height: 10em;
+    background-color: blue;
+    padding: 2em;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    grid-area: footer;
+    background-color: brown;
+}
+.tratamientos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.imagentra{
+
+background-color: aqua;
+height: 20em;
+width: 100%;
+}
+.parrafo{
+width: 100%;
+    background-color: coral;
+    height: 20em;
+}

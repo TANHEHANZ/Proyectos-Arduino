@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(52, 93, 128);
+    width: 100%;
+    height:40vh;
+}
+.section{
+    background-color: rgb(52, 128, 101);
+    width: 100%;
+    height:40vh;
+}
+#article1{
+    background-color: rgb(128, 56, 52);
+    width: 100%;
+    height:40vh; 
+}
+#article2{
+    background-color: rgb(124, 52, 128);
+    width: 100%;
+    height:40vh; 
+}

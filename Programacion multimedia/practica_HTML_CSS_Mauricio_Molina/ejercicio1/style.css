@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+}
+
+body > * {
+    padding: 20px;
+}
+
+.header {
+    height: 150px;
+    background-color: blue;
+    font-size: 2rem;
+}
+
+.articles {
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.articles > article {
+    border: 1px solid white;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.footer {
+    height: 150px;
+    font-size: 2rem;
+    background-color: red;
+}

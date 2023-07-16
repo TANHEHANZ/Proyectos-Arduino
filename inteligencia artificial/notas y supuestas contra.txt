@@ -1,0 +1,12 @@
+librerias para hacer clasificacion 
+regrecion
+	algoritmo bayesiano y su forma de clasificacion
+	antes de contrustruir el modelo establecer relaciones de los datos y diferenciar 
+
+
+
+Hijosdeputa1.
+
+
+
+leon2.0fr

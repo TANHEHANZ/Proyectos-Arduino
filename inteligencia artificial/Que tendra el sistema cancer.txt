@@ -1,0 +1,46 @@
+Sistema de autenticación y seguridad de usuarios
+Sistema de registro de pacientes y médicos
+Sistema de historial médico para pacientes
+Sistema de comunicación entre pacientes y médicos
+Sistema de programación de citas y recordatorios
+Sistema de búsqueda y filtrado avanzado de pacientes y médicos
+Sistema de seguimiento de pacientes y su evolución médica
+Integración con tecnología de inteligencia artificial para análisis y diagnóstico de datos médicos
+
+
+Sistema de Cáncer
+
+Página web informativa sobre los diferentes tipos de cáncer, tratamientos y recursos útiles específicos para Bolivia
+Sistema de búsqueda avanzada de médicos especialistas en cáncer en Bolivia
+Sistema de alerta temprana para la detección y prevención del cáncer
+Sistema de notificación a médicos de nuevos pacientes con cáncer registrados en el sistema
+Sistema de análisis de datos médicos y estadísticas de cáncer en Bolivia
+Aplicación Móvil
+
+Acceso al perfil y historial médico del paciente
+Función de chat en línea segura entre pacientes y médicos
+Sistema de recordatorios de citas y seguimiento de la evolución del tratamiento
+Sistema de alerta temprana para la detección y prevención del cáncer
+Integración con tecnología de inteligencia artificial para análisis y diagnóstico de datos médicos
+Página Informativa
+
+Información detallada sobre los diferentes tipos de cáncer y tratamientos específicos para Bolivia
+Información sobre la detección temprana del cáncer y prevención
+Recursos útiles para pacientes y familiares de pacientes con cáncer
+Enlace a la aplicación móvil y al sistema de registro y programación de citas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------para la alerta temprana de cancer----------------------------

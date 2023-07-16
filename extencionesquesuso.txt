@@ -1,0 +1,22 @@
+thnder client
+vscode styled component
+ayu
+community material theme
+react/redux grapql
+html boiler
+larabel artisan
+larabel balde formatter
+larabel blade snippets
+laravel model snippts
+live server
+live share 
+material icon theme
+materil theme
+ - - icons
+plocode 
+prettier code format
+simple code formatter
+react snippets
+spanish lenguage pack
+thuder client
+vscode style compo?ente

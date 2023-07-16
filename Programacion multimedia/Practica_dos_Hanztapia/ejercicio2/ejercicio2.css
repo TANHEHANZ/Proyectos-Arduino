@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto  1fr;
+    grid-template-areas: 
+    "nav nav"
+    "section1 section2"
+    "sectionsolo sectionsolo"
+    "footer footer"
+    ;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    gap: 0.5em;
+    background-color: black;
+    align-content: center;
+    overflow: hidden;
+}
+nav{
+    grid-area: nav;
+    height: 15vh;
+    background-color: #ff0651;
+}
+
+.section1 {
+    grid-area: section1;
+    height: 49vh;
+    width: 50vw;
+    overflow: hidden;
+}
+
+.section2{
+    grid-area: section2;
+    height: 49vh;
+    width: 50vw;
+    background-color: rgb(87, 71, 47);
+
+}
+.sectionsolo{
+    grid-area: sectionsolo;
+height: 15vh;
+background-color: rgb(136, 136, 139);
+
+}
+footer{
+    grid-area: footer;
+    height: 15vh;
+    background-color: rgb(153, 125, 31);
+
+}

@@ -1,0 +1,12 @@
+				integracion usuario con el sistema 
+Ingreso de datos: El usuario ingresa los datos de la secuencia o secuencias que desea analizar. Estos datos pueden ser ingresados manualmente o pueden cargarse desde un archivo.
+
+Selección de herramientas: El usuario selecciona las herramientas bioinformáticas que desea utilizar para analizar los datos de la secuencia. Estas herramientas pueden incluir herramientas de búsqueda de similitudes, herramientas de alineación de secuencias, herramientas de predicción de estructura de proteínas, entre otras.
+
+Configuración de parámetros: El usuario puede configurar los parámetros de cada herramienta para ajustar el análisis a sus necesidades específicas. Estos parámetros pueden incluir el tipo de búsqueda de similitudes, la longitud de la secuencia a buscar, el tipo de algoritmo de alineación a utilizar, entre otros.
+
+Procesamiento de datos: Una vez que se han ingresado los datos y se han seleccionado las herramientas y configurado los parámetros, el sistema comienza a procesar los datos de la secuencia utilizando las herramientas seleccionadas.
+
+Visualización de resultados: Una vez que se ha completado el procesamiento de datos, el sistema muestra los resultados al usuario en una interfaz de usuario. Estos resultados pueden incluir información sobre las secuencias similares encontradas, el grado de similitud, la estructura de la proteína predicha, entre otros.
+
+Interpretación de resultados: El usuario interpreta los resultados y puede ajustar los parámetros y las herramientas utilizadas según sea necesario. Si es necesario, el usuario puede repetir el proceso de análisis con diferentes parámetros y herramientas hasta obtener los resultados deseados.

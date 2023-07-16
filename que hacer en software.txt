@@ -1,0 +1,3 @@
+calculadora-
++-*/ % max-entre datos , minimo ,memoria-editar 
+con programacion funcional

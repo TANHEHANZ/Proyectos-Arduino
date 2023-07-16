@@ -1,0 +1,3 @@
+Step 1 - Open the cmd/terminal here.
+Step 2 - Run the 'flask run' command.
+Step 3 - Project should start running on the port 5000 of localhost (127.0.0.1:5000)

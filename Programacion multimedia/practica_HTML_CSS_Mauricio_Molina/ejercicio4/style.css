@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+body > * {
+    padding: 5px 30px;
+}
+
+header {
+    color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.presentation {
+    color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.hobbies {
+    color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.projects-container {
+    display: flex;
+    gap: 40px;
+}
+
+.project {
+    display: flex;
+    gap: 20px;
+}
+
+.project * {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.project p {
+    color: lightpink;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightsalmon;
+}
+
+footer * {
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
